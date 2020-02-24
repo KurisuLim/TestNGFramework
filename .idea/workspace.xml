@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccabcf3e-1628-4153-a8e6-a6a62e60192e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-Test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grouping-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel-testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parameter-testing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AssertionsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GroupingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PirorityExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TC2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paralleltesting/ParallelTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paralleltesting/ParallelTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listeners/CustomListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listeners/ListenerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGSample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,50 +49,67 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/lim/Desktop/TestNGSample/parallel-testng.xml">
-    <configuration name="DataProviderExample.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListenerTest">
+    <configuration name="ListenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestNGSample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataProviderExample" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="listeners" />
+      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListenerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestNGSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paralleltesting.*" />
+          <option name="PATTERN" value="listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="paralleltesting" />
-      <option name="MAIN_CLASS_NAME" value="paralleltesting.ParallelTest1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="listeners" />
+      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelTest2.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListenerTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestNGSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paralleltesting.*" />
+          <option name="PATTERN" value="listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="paralleltesting" />
-      <option name="MAIN_CLASS_NAME" value="paralleltesting.ParallelTest2" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="listeners" />
+      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListenerTest.test3" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="TestNGSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="listeners" />
+      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,18 +146,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/testng.xml" />
-      <item itemvalue="TestNG.DataProviderExample.loginTest" />
-      <item itemvalue="TestNG.ParallelTest1" />
-      <item itemvalue="TestNG.ParallelTest2.loginTest" />
       <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/parallel-testng.xml" />
+      <item itemvalue="JUnit.ListenerTest" />
+      <item itemvalue="JUnit.ListenerTest.test2" />
+      <item itemvalue="JUnit.ListenerTest.test1" />
+      <item itemvalue="JUnit.ListenerTest.test3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/parallel-testng.xml" />
+        <item itemvalue="JUnit.ListenerTest" />
         <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/testng.xml" />
-        <item itemvalue="TestNG.ParallelTest2.loginTest" />
-        <item itemvalue="TestNG.ParallelTest1" />
-        <item itemvalue="TestNG.DataProviderExample.loginTest" />
+        <item itemvalue="JUnit.ListenerTest.test1" />
+        <item itemvalue="JUnit.ListenerTest.test2" />
+        <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/parallel-testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +179,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="453" y="1633" key="#ListenerTest.test3" timestamp="1582524708913">
+      <screen x="47" y="1463" width="1680" height="1027" />
+    </state>
+    <state x="453" y="1633" key="#ListenerTest.test3/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582524708913" />
     <state x="625" y="1749" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582521000106">
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>
@@ -189,32 +195,32 @@
       <screen x="47" y="1463" width="1680" height="966" />
     </state>
     <state x="929" y="1737" key="#com.intellij.ide.util.TreeClassChooserDialog/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582505464215" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1582523117036">
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1582525316604">
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231478" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582523117036" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316604" />
     <state width="2169" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574749" />
     <state width="1568" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236033" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1582523117035">
+    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1582525316603">
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.center/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231477" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582523117035" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316603" />
     <state width="2169" height="260" key="GridCell.Tab.0.center/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574747" />
     <state width="1568" height="260" key="GridCell.Tab.0.center/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236032" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1582523117034">
+    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1582525316602">
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.left/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231476" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582523117034" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316602" />
     <state width="2169" height="260" key="GridCell.Tab.0.left/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574747" />
     <state width="1568" height="260" key="GridCell.Tab.0.left/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236032" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1582523117036">
+    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1582525316604">
       <screen x="47" y="1463" width="1680" height="1027" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.right/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231477" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582523117036" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316604" />
     <state width="2169" height="260" key="GridCell.Tab.0.right/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574748" />
     <state width="1568" height="260" key="GridCell.Tab.0.right/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236033" />
     <state x="500" y="117" key="SettingsEditor" timestamp="1582512567421">
