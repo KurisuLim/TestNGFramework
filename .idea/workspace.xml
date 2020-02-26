@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccabcf3e-1628-4153-a8e6-a6a62e60192e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/listeners/CustomListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listeners/ListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdvanceExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoubleClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KeysExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MouseHoverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scroll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGSample.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +18,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ListenerTest" />
+    </enabled-run-configurations>
   </component>
   <component name="ProjectId" id="1XxSoxBW9Njf18XL5ZBr2d6XnPq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -49,49 +57,12 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListenerTest">
-    <configuration name="ListenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DoubleClick.doubleClick">
+    <configuration name="AdvanceExamples.multipleWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestNGSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listeners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="listeners" />
-      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListenerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestNGSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listeners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="listeners" />
-      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListenerTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestNGSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listeners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="listeners" />
-      <option name="MAIN_CLASS_NAME" value="listeners.ListenerTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdvanceExamples" />
+      <option name="METHOD_NAME" value="multipleWindows" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,51 +85,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/lim/Desktop/TestNGSample/parallel-testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleClick.doubleClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGSample" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel-testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DoubleClick" />
+      <option name="METHOD_NAME" value="doubleClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/lim/Desktop/TestNGSample/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysExample.keys" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGSample" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="MAIN_CLASS_NAME" value="KeysExample" />
+      <option name="METHOD_NAME" value="keys" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-      </listeners>
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MouseHoverExample.hover (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGSample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MouseHoverExample" />
+      <option name="METHOD_NAME" value="hover" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MouseHoverExample.hover" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGSample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MouseHoverExample" />
+      <option name="METHOD_NAME" value="hover" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/testng.xml" />
-      <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/parallel-testng.xml" />
-      <item itemvalue="JUnit.ListenerTest" />
-      <item itemvalue="JUnit.ListenerTest.test2" />
-      <item itemvalue="JUnit.ListenerTest.test1" />
       <item itemvalue="JUnit.ListenerTest.test3" />
+      <item itemvalue="JUnit.AdvanceExamples.multipleWindows" />
+      <item itemvalue="TestNG.KeysExample.keys" />
+      <item itemvalue="TestNG.MouseHoverExample.hover" />
+      <item itemvalue="TestNG.MouseHoverExample.hover (1)" />
+      <item itemvalue="TestNG.DoubleClick.doubleClick" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListenerTest" />
-        <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/testng.xml" />
-        <item itemvalue="JUnit.ListenerTest.test1" />
-        <item itemvalue="JUnit.ListenerTest.test2" />
-        <item itemvalue="TestNG./Users/lim/Desktop/TestNGSample/parallel-testng.xml" />
+        <item itemvalue="TestNG.DoubleClick.doubleClick" />
+        <item itemvalue="TestNG.MouseHoverExample.hover (1)" />
+        <item itemvalue="TestNG.MouseHoverExample.hover" />
+        <item itemvalue="TestNG.KeysExample.keys" />
+        <item itemvalue="JUnit.AdvanceExamples.multipleWindows" />
       </list>
     </recent_temporary>
   </component>
@@ -195,34 +184,54 @@
       <screen x="47" y="1463" width="1680" height="966" />
     </state>
     <state x="929" y="1737" key="#com.intellij.ide.util.TreeClassChooserDialog/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582505464215" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1582525316604">
-      <screen x="47" y="1463" width="1680" height="1027" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom" timestamp="1582690288218">
+      <screen x="47" y="1463" width="1680" height="960" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231478" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316604" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525367555" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582601311549" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/47.1463.1680.960/0.23.2560.1417@47.1463.1680.960" timestamp="1582690288218" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/47.1463.1680.961/0.23.2560.1417@47.1463.1680.961" timestamp="1582684624314" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/47.1463.1680.963/0.23.2560.1417@47.1463.1680.963" timestamp="1582687214210" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/47.1463.1680.965/0.23.2560.1417@47.1463.1680.965" timestamp="1582685186930" />
     <state width="2169" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574749" />
-    <state width="1568" height="260" key="GridCell.Tab.0.bottom/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236033" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1582525316603">
-      <screen x="47" y="1463" width="1680" height="1027" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582685285746" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center" timestamp="1582690288217">
+      <screen x="47" y="1463" width="1680" height="960" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.center/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231477" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316603" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525367554" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582601311549" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/47.1463.1680.960/0.23.2560.1417@47.1463.1680.960" timestamp="1582690288217" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/47.1463.1680.961/0.23.2560.1417@47.1463.1680.961" timestamp="1582684624313" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/47.1463.1680.963/0.23.2560.1417@47.1463.1680.963" timestamp="1582687214209" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/47.1463.1680.965/0.23.2560.1417@47.1463.1680.965" timestamp="1582685186928" />
     <state width="2169" height="260" key="GridCell.Tab.0.center/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574747" />
-    <state width="1568" height="260" key="GridCell.Tab.0.center/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236032" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1582525316602">
-      <screen x="47" y="1463" width="1680" height="1027" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582685285744" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left" timestamp="1582690288216">
+      <screen x="47" y="1463" width="1680" height="960" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.left/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231476" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316602" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525367554" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582601311549" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/47.1463.1680.960/0.23.2560.1417@47.1463.1680.960" timestamp="1582690288216" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/47.1463.1680.961/0.23.2560.1417@47.1463.1680.961" timestamp="1582684624312" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/47.1463.1680.963/0.23.2560.1417@47.1463.1680.963" timestamp="1582687214208" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/47.1463.1680.965/0.23.2560.1417@47.1463.1680.965" timestamp="1582685186927" />
     <state width="2169" height="260" key="GridCell.Tab.0.left/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574747" />
-    <state width="1568" height="260" key="GridCell.Tab.0.left/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236032" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1582525316604">
-      <screen x="47" y="1463" width="1680" height="1027" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582685285744" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right" timestamp="1582690288217">
+      <screen x="47" y="1463" width="1680" height="960" />
     </state>
     <state width="2169" height="260" key="GridCell.Tab.0.right/47.1463.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1582520231477" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525316604" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/47.1463.1680.1027/0.23.2560.1337@47.1463.1680.1027" timestamp="1582525367555" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/47.1463.1680.957/0.23.2560.1417@47.1463.1680.957" timestamp="1582601311549" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/47.1463.1680.960/0.23.2560.1417@47.1463.1680.960" timestamp="1582690288217" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/47.1463.1680.961/0.23.2560.1417@47.1463.1680.961" timestamp="1582684624313" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/47.1463.1680.963/0.23.2560.1417@47.1463.1680.963" timestamp="1582687214209" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/47.1463.1680.965/0.23.2560.1417@47.1463.1680.965" timestamp="1582685186929" />
     <state width="2169" height="260" key="GridCell.Tab.0.right/47.1463.1680.966/0.23.2560.1417@0.23.2560.1417" timestamp="1582512574748" />
-    <state width="1568" height="260" key="GridCell.Tab.0.right/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582508236033" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/47.1463.1680.966/0.23.2560.1417@47.1463.1680.966" timestamp="1582685285745" />
     <state x="500" y="117" key="SettingsEditor" timestamp="1582512567421">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
